@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { useDispatch, useSelector } from 'react-redux'
-import { increment, decrement, incrementBy } from './slices/counter/counterSlice'
+import { decrement, increment, incrementBy } from './store/slices/counter/counterSlice'
 
 function App() {
 
