@@ -5,14 +5,14 @@ import './index.css'
 import { Provider } from 'react-redux'
 import { store } from './store/store'
 import { PokemonApp } from './PokemonApp.jsx'
-import { TodosApi } from './TodosApi.jsx'
+import { TodosApp } from './TodosApp.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       {/* <App /> */}
       {/* <PokemonApp /> */}
-      <TodosApi />
+      <TodosApp />
     </Provider>
   </React.StrictMode>,
 )
